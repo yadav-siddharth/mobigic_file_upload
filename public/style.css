@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito+Sans:opsz@6..12&family=Nunito:wght@500&family=Poppins:wght@300;500&family=Raleway&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tilt+Neon&family=Ubuntu&display=swap');
+.main-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins',sans-serif;
+}
+
+.form-body {
+    padding: 20px;
+    background-color:#ffffffee;
+    border-radius: 6px;
+    margin: 10px;
+    box-shadow: 2px 4px 4px 2px rgba(0,0,0,0.2);
+}
+
+.form-body h2{
+    font-size: 40px;
+    font-family:'Poppins',sans-serif;
+    text-align: center;  
+    padding-bottom: 10px; 
+}
+
+.first-name,.password,.email{
+ display: flex;
+ flex-direction: column;
+ padding: 10px;
+ margin: 16px;
+ font-family: inherit;
+ color: #939191ee;
+}
+
+
+
+.first-name input,.password input ,.email input{
+    width: 300px;
+    height: 40px;
+    outline: none;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid;
+    font-family: inherit
+
+}
+
+.email input::placeholder{
+    color: #9d9999;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit button{
+    padding: 10px;
+    width: 200px;
+    background-color:rgb(218, 187, 14);
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    font-weight: 600;
+    font-family: inherit;
+}
+
